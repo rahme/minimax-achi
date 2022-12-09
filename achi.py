@@ -18,7 +18,7 @@ def main():
     boardLogic.gamemode = str(input())
 
     if(boardLogic.gamemode == 'ai'):
-        print("What level do you want the AI to be? (1/2)")
+        print("What level do you want the AI to be? (0/1)")
         achiAI.level = int(input())
 
     print("Game will start. Please click on the GUI to place a token.\n")
